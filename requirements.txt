@@ -1,7 +1,9 @@
 fastapi
+google-generativeai
 httpie
 jupyter
 pandas
 pydantic
 statsbombpy
+streamlit
 uvicorn

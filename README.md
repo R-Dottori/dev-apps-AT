@@ -13,3 +13,5 @@ Projeto utilizando dados sobre futebol do StatsBomb para criar uma API.
 3 - Instalar as dependências: "python -m pip install -r requirements.txt"
 
 4 - Rodar a API com: uvicorn src.main:app
+
+5 - Para utilizar o LLM Gemini, criar um arquivo ".env" na raiz do projeto contendo a chave da API: "GEMINI_KEY=chave"
