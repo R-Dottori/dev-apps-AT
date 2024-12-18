@@ -2,6 +2,10 @@ fastapi
 google-generativeai
 httpie
 jupyter
+langchain
+langchain-community
+langchain_google_genai
+matplotlib
 pandas
 pydantic
 statsbombpy

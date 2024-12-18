@@ -19,3 +19,19 @@ class ModeloResumo(BaseModel):
 class ModeloEstatistica(BaseModel):
     id_partida: int
     estatisticas: dict
+
+
+class ModeloNarracao(BaseModel):
+    id_partida: int
+    tom_narracao: str
+
+
+class ModeloAgentePergunta(BaseModel):
+    id_partida: int
+    pergunta: str
+
+
+class ModeloAgenteResposta(BaseModel):
+    id_partida: int
+    pergunta: str
+    resposta: str
